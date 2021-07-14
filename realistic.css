@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Castoro:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dfdfdf;
+    font-family: 'Merriweather', serif;
+}
+.wrapper{
+    margin: 0 10%;
+}
+
+.heading{
+    text-align: center;
+}
+.heading h1 {
+    font-size: 160px;
+    font-weight: 400;
+    padding-top: 2%;
+    line-height: 145px;
+}
+.heading h5{
+    font-size: 22px;
+    font-weight: 200;
+    padding-bottom: 25px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1%;
+}
+
+.fa-bars {
+    display: none !important;
+}
+.info span{
+    color: #a9a4b2;
+    font-size: 15px;
+}
+.tel{
+    border-right: 1px solid #a9a4b2;
+}
+.mail{
+    margin-left: 5px;
+}
+.form{
+    width: 50%;
+    text-align: right;
+}
+.form input{
+    padding: 10px;
+    border-style: none;
+    border: 1px solid black;
+    margin-right: 5px;
+    background-color: rgba(255,255,255, 0.3);
+    font-family: 'Merriweather', serif;
+}
+.red {
+    color: red;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    outline: none;
+}
+.form button{
+    padding: 11px;
+    border-style: none;
+    background-color: gray;
+    color: white;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+}
+.fas {
+    color: white;
+    font-size: 20px;
+}
+.homepage{
+    color: rgb(105, 105, 105);
+}
+/* header ends */
+
+
+.nav-points{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.nav .wrapper .nav-points li {
+    list-style: none;
+    margin: 5px 35px;
+    cursor: pointer;
+    transition-duration: 0.3s;    
+    border-bottom: 2px solid transparent;
+}
+#dropdown{
+    border-style: none;
+    background-color: #dfdfdf;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.line1{
+    margin: 2px 0 0;
+}
+.nav .wrapper{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.nav .wrapper .nav-points li:hover {
+    border-bottom: 2px solid whitesmoke;
+}
+/* nav ends */
+
+.main .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3% 4%;
+    margin-top: 60px;
+    background-color: white;
+}
+.main-card {
+    width: 30%;
+}
+.submain{
+    display: flex;
+    align-items: center;
+}
+.submain img{
+    width: 18%;
+    transition-duration: 0.2s;
+}
+.submain img:hover{
+    transform: scale(1.15);
+}
+.submain h3{
+    margin-left: 18px;
+    font-size: 24px;
+    font-weight: 100;
+}
+.main-card p {
+    padding: 18px 0 40px 0;
+    color:#ccc6c6;
+    font-weight: 100;
+    font-size: 12px;
+}
+/* main cards ends */
+
+.cards-gallery .wrapper{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+}
+.cards-gallery .wrapper img{
+    width: 100%;
+    box-shadow: 5px 10px 8px #888888;
+    transition-duration: 0.2s;
+}
+.cards-gallery .wrapper img:hover{
+    transform: scale(1.15);
+}
+.card-1, .card-2, .card-3{
+    width: 23%;
+}
+.cards-gallery .wrapper h3{
+    padding: 6% 0 5% 0;
+    font-size: 23px;
+    font-weight: 100;
+    color: #7f7e80;
+}
+.cards-gallery .wrapper p {
+    padding-bottom: 10%;
+    color: #b3a7af;
+}
+.cards-gallery .wrapper .line3{
+    width: 100%;
+    margin-bottom: 1px;
+    border-bottom: 1px solid;
+}
+/* cards galley ends */
+
+.about ul{
+    list-style: none;
+    color: #b3a7af;
+}
+.about .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+}
+.projects{
+    width: 45%;
+    margin-bottom: 25px;
+}
+.blog, .touch{
+    width: 20%;
+}
+.projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects ul li:nth-child(4n+0) {
+    margin-right: 0%;
+}
+.projects ul li{
+    padding: 5px 5px 1px 5px;
+    background-color: white;
+    margin: 0 25px 25px 0;
+}
+.projects ul li img{
+    width: 100px;
+}
+.blog ul li, .touch ul li{
+    margin-bottom: 30px;
+}
+.touch ul li.lastli, .blog ul li.lastli{
+    margin-bottom: 0;
+}
+.projects h3, .blog h3, .touch h3{
+    border-bottom: 1px dotted black;
+    color: #b3a7af;
+}
+.blog h3, .touch h3, .projects h3 {
+    padding: 25px 0 10px 0;
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 100;
+}
+.line4{
+    width: 100%;
+    margin-bottom: 1px;
+    border-bottom: 1px solid;
+}
+/* about section ends here */
+
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    color: #b3a7af;
+}
+
+/* add words color in main cars */
+/* css ends here */
+
+/* Media Query */
+
+@media(max-width: 892px){
+.heading h1 {
+    font-size: 112px;
+    padding-top: 1%;
+    line-height: 120px;
+}
+.heading h5{
+    font-size: 21px;
+}
+.form{
+    width: 50%;
+}
+.form input{
+    padding: 5px;
+}
+.form button{
+    padding: 7px;
+    font-size: 11px;
+}
+
+.nav .wrapper .nav-points li {
+    margin: 5px 14px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+select {
+    font-size: 12px;
+    transform: translateY(-5px);
+}
+.fas {
+    transform: translateY(-2px);
+}
+#dropdown {
+    font-size: 12px;
+}
+
+
+.submain{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.submain h3 {
+    width: 100%;
+    margin: 10px 0 0 0;
+    font-size: 20px;
+}
+.submain img {
+    width: 40%;
+}
+
+.main-card p {
+    font-size: 15px;
+}
+
+.cards-gallery .wrapper h3 {
+    font-size: 20px;
+    padding: 15px 0;
+}
+.cards-gallery .wrapper p {
+    font-size: 15px;
+}
+
+.blog h3, .touch h3, .projects h3 {
+    font-size: 22px;
+}
+.projects ul li {
+    padding: 5px 5px 1px 5px;
+    background-color: white;
+    margin: 0 2% 25px 0;
+    width: 20%;
+}
+.projects {
+    width: 100%;
+    text-align: center;
+}
+.projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projects ul li img {
+    width: 100%;
+}
+.blog, .touch {
+    width: 40%;
+    margin-bottom: 25px;
+}
+.about .wrapper {
+    justify-content: space-evenly;
+}
+.footer .wrapper {
+    font-size: 14px;
+}
+}
+
+@media (max-width: 767px){
+.heading h1 {
+    font-size: 108px;
+    line-height: 115px;
+}
+.heading h5 {
+    font-size: 19px;
+}
+.main-card {
+width: 40%;
+}
+.info span {
+    font-size: 12px;
+}
+.form input {
+    padding: 5px;
+    font-size: 12px;
+}
+.nav .wrapper .nav-points li {
+    font-size: 11px;
+    margin: 2px 8px;
+}
+#dropdown {
+    font-size: 11px;
+}
+.main-card p {
+    font-size: 14px;
+}
+.submain img {
+    width: 35%;
+}
+.cards-gallery .wrapper h3 {
+    font-size: 18px;
+}
+.cards-gallery .wrapper p {
+    font-size: 14px;
+}
+.blog h3, .touch h3, .projects h3 {
+    font-size: 20px;
+}
+
+.projects ul li {
+    width: 18%;
+}
+.blog ul li, .touch ul li {
+    margin-bottom: 20px;
+}
+.blog h3, .touch h3, .projects h3 {
+    padding: 15px 0 10px 0;
+    font-size: 21px;
+}
+.footer .wrapper {
+    font-size: 13px;
+}
+}
+
+@media (max-width: 576px){
+.heading h1 {
+    font-size: 70px;
+    line-height: 75px;
+}
+.heading h5 {
+    font-size: 16px;
+}
+.nav .wrapper .nav-points li {
+    font-size: 9px;
+    margin: 3px 4px;
+}
+#dropdown {
+    font-size: 9px;
+}
+.form input {
+    padding: 5px;
+    font-size: 10px;
+}
+.form button {
+    padding: 5px;
+}
+.info span {
+    font-size: 13px;
+    display: block;
+}
+.tel{
+    border-right: none;
+}
+.mail{
+    margin: 0;
+}
+.form {
+    width: 55%;
+}
+.form input {
+    padding: 3px;
+}
+.form button {
+    font-size: 9px;
+}
+.nav-points {
+    padding: 7px;
+}
+select {
+    font-size: 9px;
+    transform: translateY(-3px);
+}
+.fa, .fas {
+    font-weight: 900;
+    font-size: 14px;
+}
+.blog h3, .touch h3, .projects h3 {
+    padding: 15px 0 10px 0;
+    font-size: 17px;
+}
+}
+
+
+@media (max-width: 426px){
+
+.heading h1 {
+    font-size: 50px;
+    line-height: 75px;
+}
+.heading h5 {
+    font-size: 11px;
+}
+.heading h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+.form {
+    width: 100%;
+    text-align: left;
+    margin: 20px 0;
+}
+.search {
+    flex-wrap: wrap;
+}
+.fa-bars {
+    display: block !important;
+    color: black;
+    margin-top: 6px;
+    font-size: 20px;
+}
+.nav-points {
+    display: none;
+}
+.main-card {
+    width: 100%;
+}
+.card-1, .card-2, .card-3 {
+    width: 100%;
+}
+.projects ul li {
+    width: 40%;
+}
+.projects ul li:nth-child(2n+0) {
+    margin-right: 0%;
+}
+.blog, .touch {
+    width: 100%;
+}
+.footer .wrapper span {
+    display: block;
+    margin-bottom: 10px;
+}
+.footer .wrapper {
+    flex-wrap: wrap;
+}
+}
