@@ -256,6 +256,52 @@ select {
 
 /* Media Query */
 
+
+@media(max-width: 1430px){
+.projects ul li:nth-child(4n+0) {
+    padding: 5px 5px 1px 5px;
+    background-color: white;
+    margin: 0 25px 25px 0;
+}
+.projects ul li {
+    width: 39%;
+}
+.projects ul li img {
+    width: 100%;
+}
+}
+
+@media(max-width: 1362px) {
+.blog, .touch {
+    width: 24%;
+}
+.blog h3, .touch h3, .projects h3 {
+    font-size: 16px;
+} 
+.nav .wrapper .nav-points li {
+    margin: 5px 20px;
+}
+.submain img {
+    width: 35%;
+}
+.submain h3 {
+    font-size: 20px;
+}
+.heading h1 {
+    font-size: 133px;
+}
+.nav-points {
+    padding: 5px;
+}
+.nav .wrapper .nav-points li {
+    margin: 5px 7px;
+    font-size: 16px;
+}
+#dropdown{
+    font-size: 16px;
+}
+}
+
 @media(max-width: 892px){
 .heading h1 {
     font-size: 112px;
